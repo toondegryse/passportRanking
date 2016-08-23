@@ -3,26 +3,11 @@ import numpy as np
 import pandas as pd 
 from pandas import DataFrame, Series
 from pandas.io.json import json_normalize
-from numpy.random import randn
-from cStringIO import StringIO
-import datetime
-import math
-
-# Stats
-from scipy import stats 
 
 # Plotting
 import matplotlib as mpl 
 import matplotlib.pyplot as plt
 import seaborn as sns 
-
-# Directory access
-from os import listdir
-from os.path import isfile, join
-
-import urllib2,sys
-from BeautifulSoup import BeautifulSoup, NavigableString
-from bs4 import BeautifulSoup
 
 import json
 
