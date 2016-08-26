@@ -17,7 +17,7 @@ cc = df['countries'].apply(pd.Series)
 
 # countries and the number of countries their passports can access, exported manually to csv 
 #from http://www.atlasandboots.com/best-passport-to-have/
-rankingpd = pd.DataFrame(pd.read_csv('/home/toon/Documents/python_analytics/passportRanking/ranking.csv',header=0,sep=',',parse_dates=True))
+rankingpd = pd.DataFrame(pd.read_csv('ranking.csv',header=0,sep=',',parse_dates=True))
 
 # filling the empty rankings and merging the two sources based on country name
 df = rankingpd.fillna(method="ffill")
